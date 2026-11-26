@@ -49,6 +49,66 @@ IngredientStore (SQLite)  ←→  YAML/CSV seed  ←→  Admin CMS (token auth)
 
 ## Example
 
+### Real production call — noisy photographed label
+
+The interesting case is not a clean happy path. This is an unedited response from a real call on a photographed cake label, where OCR output is messy and the knowledge base does not know every token.
+
+![Food label used in this example](examples/sample-label.jpg)
+
+```bash
+curl -X POST http://localhost:8000/api/analyze \
+  -F 'image_url=https://pic.rmb.bdstatic.com/bjh/news/1398e73015a61cf69d9b34c5fadc4e2f.png' \
+  -F 'user_profile={"allergens":[],"watch_categories":[],"conditions":[]}'
+```
+
+Response (annotated excerpt — [full unabridged JSON](examples/response-full.json)):
+
+```json
+{
+  "code": 1,
+  "message": "success",
+  "data": {
+    "ocr_meta": { "provider": "ali", "avg_confidence": 1, "low_confidence_words": [] },
+    "analysis_result": {
+      "ingredient_section": "梨糖醇液，单双甘油脂肪酸酯，黄原胶，碳酸钠，1聚甘油脂肪酸酯，磷酸三钙 ...",
+      "matched_ingredients": [
+        "单双甘油脂肪酸酯", "黄原胶", "碳酸钠", "聚甘油脂肪酸酯", "磷酸三钙",
+        "... 33 matched in total"
+      ],
+      "unknown_ingredients": [
+        "梨糖醇液", "二氢钙硬脂酰钠", "硬脂酸钾", "羟丙基二酯", "品用香精",
+        "豆粉松(", "))(添加量≥5%)海藻采糖加", "... 13 surfaced in total"
+      ],
+      "coverage": {
+        "matched_count": 33,
+        "unknown_count": 13,
+        "total_candidates": 46,
+        "coverage_rate": 0.72,
+        "database_size": 561
+      },
+      "confidence": 0.56,
+      "ingredient_suggestions": [
+        { "unknown": "梨糖醇液", "candidates": ["山梨醇液", "D-山梨糖醇"] },
+        { "unknown": "硬脂酸钾", "candidates": ["硬脂酸镁"] },
+        { "unknown": "品用香精", "candidates": ["食用香精"] },
+        { "unknown": "食用碘盐", "candidates": ["氯化钠"] },
+        { "unknown": "添奶油", "candidates": ["奶油"] }
+      ],
+      "warnings": [
+        "ℹ️ 提示: 山梨酸钾 - 防腐剂，建议适量摄入",
+        "💡 「梨糖醇液」未收录，您是否指: 山梨醇液、D-山梨糖醇？"
+      ]
+    }
+  }
+}
+```
+
+What this shows: 46 candidates → 33 matched, 13 **surfaced rather than swallowed**, 5 fuzzy suggestions, and an honest `confidence: 0.56` / `coverage_rate: 0.72` instead of a guessed-certain verdict. Every warning traces back to a knowledge-base entry. See [`examples/API_EXAMPLE.md`](examples/API_EXAMPLE.md) for the full annotated walkthrough.
+
+### Text-only quick example
+
+No cloud credentials needed — `POST /api/analyze-text` runs the same analysis pipeline offline:
+
 ```bash
 curl -X POST http://localhost:8000/api/analyze-text \
   -F 'text_input=配料：水、小麦粉、苯甲酸钠、阿斯巴甜(含苯丙氨酸)、安赛蜜' \
@@ -74,8 +134,6 @@ Response (abridged):
   }
 }
 ```
-
-For a **real production response on a noisy photographed label** — 46 ingredient candidates, 33 matched, 13 unknowns surfaced, 5 fuzzy suggestions, confidence 0.56 — see [`examples/API_EXAMPLE.md`](examples/API_EXAMPLE.md) and the [full JSON](examples/response-full.json). That example is the more interesting one: it shows how the service behaves when OCR is dirty and the knowledge base does not know every token.
 
 ## Run locally
 
