@@ -1,0 +1,2678 @@
+default_type: base
+ingredients:
+  水:
+    ingredient_type: base
+    category: 液体基础
+    safety_level: safe
+    description: 常见基础配料：水
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+    aliases:
+    - 饮用水
+  饮用水:
+    ingredient_type: base
+    category: 液体基础
+    safety_level: safe
+    description: 常见基础配料：饮用水
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  白砂糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：白砂糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+    aliases:
+    - 绵白糖
+  绵白糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：绵白糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  冰糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：冰糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  果糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：果糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  葡萄糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：葡萄糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  果葡糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：果葡糖浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  麦芽糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：麦芽糖浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  麦芽糊精:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：麦芽糊精
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  食用盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：食用盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高钠
+    aliases:
+    - 食盐
+  食盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：食盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高钠
+  精炼植物油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：精炼植物油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  食用植物油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：食用植物油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  棕榈油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：棕榈油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  大豆油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：大豆油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  菜籽油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：菜籽油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  花生油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：花生油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 花生
+  玉米油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：玉米油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  葵花籽油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：葵花籽油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  橄榄油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：橄榄油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  椰子油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：椰子油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  起酥油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：起酥油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  人造奶油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：人造奶油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  黄油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：黄油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  奶油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：奶油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  稀奶油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：稀奶油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  全脂乳粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：全脂乳粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+    aliases:
+    - 乳粉
+    - 奶粉
+  脱脂乳粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：脱脂乳粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  乳粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：乳粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  生牛乳:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：生牛乳
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  牛奶:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：牛奶
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+    aliases:
+    - 生牛乳
+  乳清蛋白粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：乳清蛋白粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  乳糖:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：乳糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  炼乳:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：炼乳
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  小麦粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：小麦粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+    aliases:
+    - 高筋粉
+    - 低筋粉
+    - 富强粉
+    - 面包粉
+  富强粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：富强粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  全麦粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：全麦粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  玉米淀粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：玉米淀粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+    aliases:
+    - 变性淀粉
+  马铃薯淀粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：马铃薯淀粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  木薯淀粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：木薯淀粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  变性淀粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：变性淀粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  大米:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：大米
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  糯米:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：糯米
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  燕麦:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：燕麦
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  rye粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：rye粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  黑麦粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：黑麦粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  高筋粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：高筋粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  低筋粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：低筋粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  鸡蛋:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：鸡蛋
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 蛋
+    aliases:
+    - 蛋白液
+    - 全蛋粉
+    - 蛋黄粉
+  蛋白液:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：蛋白液
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 蛋
+  蛋黄粉:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：蛋黄粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 蛋
+  全蛋粉:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：全蛋粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 蛋
+  大豆蛋白:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：大豆蛋白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  分离蛋白:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：分离蛋白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  胶原蛋白:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：胶原蛋白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  猪肉:
+    ingredient_type: base
+    category: 肉类
+    safety_level: safe
+    description: 常见基础配料：猪肉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  牛肉:
+    ingredient_type: base
+    category: 肉类
+    safety_level: safe
+    description: 常见基础配料：牛肉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  鸡肉:
+    ingredient_type: base
+    category: 肉类
+    safety_level: safe
+    description: 常见基础配料：鸡肉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  鸡粉:
+    ingredient_type: base
+    category: 肉类
+    safety_level: safe
+    description: 常见基础配料：鸡粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  猪骨提取物:
+    ingredient_type: base
+    category: 肉类
+    safety_level: safe
+    description: 常见基础配料：猪骨提取物
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  虾:
+    ingredient_type: base
+    category: 水产
+    safety_level: safe
+    description: 常见基础配料：虾
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 甲壳纲
+  蟹:
+    ingredient_type: base
+    category: 水产
+    safety_level: safe
+    description: 常见基础配料：蟹
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 甲壳纲
+  鱼:
+    ingredient_type: base
+    category: 水产
+    safety_level: safe
+    description: 常见基础配料：鱼
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 鱼
+  鳕鱼肉:
+    ingredient_type: base
+    category: 水产
+    safety_level: safe
+    description: 常见基础配料：鳕鱼肉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 鱼
+  花生:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：花生
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 花生
+  杏仁:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：杏仁
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 坚果
+  核桃:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：核桃
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 坚果
+  腰果:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：腰果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 坚果
+  榛子:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：榛子
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 坚果
+  芝麻:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：芝麻
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 芝麻
+  黑芝麻:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：黑芝麻
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 芝麻
+  白芝麻:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 常见基础配料：白芝麻
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 芝麻
+  番茄:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：番茄
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  番茄酱:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：番茄酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  苹果:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：苹果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  苹果汁:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：苹果汁
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  橙汁:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：橙汁
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  柠檬汁:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：柠檬汁
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  草莓:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：草莓
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  蓝莓:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：蓝莓
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  胡萝卜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：胡萝卜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  洋葱:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：洋葱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  大蒜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：大蒜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  生姜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：生姜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  辣椒:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：辣椒
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  可可粉:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：可可粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  巧克力:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：巧克力
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  茶叶:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：茶叶
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  红茶:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：红茶
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  绿茶:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：绿茶
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  酵母:
+    ingredient_type: base
+    category: 发酵基础
+    safety_level: safe
+    description: 常见基础配料：酵母
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  发酵乳:
+    ingredient_type: base
+    category: 发酵基础
+    safety_level: safe
+    description: 常见基础配料：发酵乳
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  酸奶:
+    ingredient_type: base
+    category: 发酵基础
+    safety_level: safe
+    description: 常见基础配料：酸奶
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  乳酸菌:
+    ingredient_type: base
+    category: 发酵基础
+    safety_level: safe
+    description: 常见基础配料：乳酸菌
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  泡打粉:
+    ingredient_type: base
+    category: 膨松基础
+    safety_level: safe
+    description: 常见基础配料：泡打粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  酵母抽提物:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：酵母抽提物
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  酱油:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：酱油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高钠
+    - 大豆
+    - 麸质
+  蚝油:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：蚝油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 甲壳纲
+  醋:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：醋
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  料酒:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：料酒
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  味精:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：味精
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  香辛料:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：香辛料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  五香粉:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：五香粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  胡椒粉:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：胡椒粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  辣椒粉:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：辣椒粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  孜然:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：孜然
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  蜂蜜:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：蜂蜜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  果酱:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：果酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  果冻粉:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：果冻粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  明胶:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：明胶
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  琼脂粉:
+    ingredient_type: base
+    category: 增稠基础
+    safety_level: safe
+    description: 常见基础配料：琼脂粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  果胶粉:
+    ingredient_type: base
+    category: 增稠基础
+    safety_level: safe
+    description: 常见基础配料：果胶粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  奶粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：奶粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  芝士:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：芝士
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  干酪:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：干酪
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  帕玛森干酪:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：帕玛森干酪
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  马苏里拉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：马苏里拉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  巧克力制品:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：巧克力制品
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  代可可脂:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 常见基础配料：代可可脂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  植脂末:
+    ingredient_type: base
+    category: 复合基料
+    safety_level: safe
+    description: 常见基础配料：植脂末
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  速溶咖啡:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：速溶咖啡
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  咖啡粉:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：咖啡粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  速溶茶粉:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：速溶茶粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  浓缩果汁:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：浓缩果汁
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  浓缩乳清蛋白:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：浓缩乳清蛋白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  乳矿物盐:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：乳矿物盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  赤砂糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：赤砂糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  红糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：红糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  黑糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：黑糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  淀粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：淀粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  粉丝:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：粉丝
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  面条:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：面条
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  面包粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：面包粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  饺子皮:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：饺子皮
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  馄饨皮:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：馄饨皮
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  方便面饼:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：方便面饼
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  即食燕麦片:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：即食燕麦片
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  麦片:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：麦片
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+  膨化谷物:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：膨化谷物
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  玉米碴:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：玉米碴
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  小米:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：小米
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  高粱:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：高粱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  薏米:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 常见基础配料：薏米
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  红豆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：红豆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  绿豆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：绿豆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  黄豆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：黄豆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  黑豆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：黑豆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  豌豆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：豌豆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  鹰嘴豆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：鹰嘴豆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  豆腐:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：豆腐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  豆皮:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：豆皮
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  腐竹:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：腐竹
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  豆浆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：豆浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  纳豆:
+    ingredient_type: base
+    category: 豆类
+    safety_level: safe
+    description: 常见基础配料：纳豆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  冻干草莓:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：冻干草莓
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  冻干蓝莓:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：冻干蓝莓
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  冻干水果:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：冻干水果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  蔬菜粒:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：蔬菜粒
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  脱水蔬菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：脱水蔬菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  马铃薯:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：马铃薯
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  红薯:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：红薯
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  紫薯:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：紫薯
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  山药:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：山药
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  南瓜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：南瓜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  冬瓜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：冬瓜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  西葫芦:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：西葫芦
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  黄瓜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：黄瓜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  生菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：生菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  菠菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：菠菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  芹菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：芹菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  香菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：香菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  香葱:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：香葱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  韭菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：韭菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  白菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：白菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  卷心菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：卷心菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  花菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：花菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  西兰花:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：西兰花
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  蘑菇:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：蘑菇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  香菇:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：香菇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  木耳:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：木耳
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  银耳:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：银耳
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  竹荪:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：竹荪
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  海带:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：海带
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  紫菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：紫菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  裙带菜:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 常见基础配料：裙带菜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  鱼露:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：鱼露
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 鱼
+  虾酱:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：虾酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 甲壳纲
+  腐乳:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：腐乳
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  豆豉:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：豆豉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  郫县豆瓣:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：郫县豆瓣
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  黄豆酱:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：黄豆酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 大豆
+  甜面酱:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：甜面酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 麸质
+    - 大豆
+  芝麻酱:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：芝麻酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 芝麻
+  花生酱:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：花生酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 花生
+  杏仁酱:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 常见基础配料：杏仁酱
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 坚果
+  果酱基质:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：果酱基质
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：糖浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  invert syrup:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：invert syrup
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  转化糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：转化糖浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  固体玉米糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：固体玉米糖浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  糊精:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：糊精
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+    aliases:
+    - dextrin
+  dextrin:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：dextrin
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  葡萄糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：葡萄糖浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  结晶果糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：结晶果糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 高糖
+  低聚果糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：低聚果糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  低聚异麦芽糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：低聚异麦芽糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  聚葡萄糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 常见基础配料：聚葡萄糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  膳食纤维:
+    ingredient_type: base
+    category: 功能基料
+    safety_level: safe
+    description: 常见基础配料：膳食纤维
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  菊粉:
+    ingredient_type: base
+    category: 功能基料
+    safety_level: safe
+    description: 常见基础配料：菊粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  蛋白粉:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 常见基础配料：蛋白粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags: []
+  whey powder:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：whey powder
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+  乳清粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 常见基础配料：乳清粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    - 饮料
+    - 烘焙
+    tags:
+    - 乳
+    aliases:
+    - whey powder

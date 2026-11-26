@@ -1,0 +1,140 @@
+default_type: composite
+ingredients:
+  食用香精:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: caution
+    description: 食品用香料混合物，具体成分通常不标注
+    potential_risks:
+    - 成分不透明，敏感人群需注意
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 饮料
+    - 糖果
+    - 糕点
+    tags:
+    - 成分不透明
+    aliases:
+    - 香精
+    - 食品用香精
+  食用香料:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: caution
+    description: 天然或合成香料混合物
+    potential_risks:
+    - 成分不透明
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 饮料
+    - 糖果
+    tags:
+    - 成分不透明
+  调味料:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: caution
+    description: 复合调味料，具体成分需看子配料
+    potential_risks:
+    - 可能含多种添加剂和过敏源
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 零食
+    - 方便面
+    - 复合酱料
+    tags:
+    - 成分不透明
+  复合酱料:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: caution
+    description: 多种原料调制的复合酱料
+    potential_risks:
+    - 可能含过敏源和添加剂
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 方便食品
+    - 冷冻食品
+    tags:
+    - 成分不透明
+  起酥油:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: caution
+    description: 经氢化或调配的油脂，可能含反式脂肪酸
+    potential_risks:
+    - 可能含反式脂肪酸
+    safe_limits: 适量摄入
+    common_products:
+    - 糕点
+    - 油炸零食
+    tags:
+    - 成分不透明
+  植脂末:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: caution
+    description: 含植物油、葡萄糖浆、酪蛋白等复合粉体
+    potential_risks:
+    - 可能含反式脂肪前体
+    - 含乳成分
+    safe_limits: 适量摄入
+    common_products:
+    - 奶茶
+    - 速溶咖啡
+    - 麦片
+    tags:
+    - 成分不透明
+    - 乳
+  代可可脂:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: caution
+    description: 可可脂替代油脂
+    potential_risks:
+    - 可能含反式脂肪酸
+    safe_limits: 适量摄入
+    common_products:
+    - 巧克力
+    - 代可可脂巧克力
+    tags:
+    - 成分不透明
+  氢化植物油:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: warning
+    description: 经氢化处理的植物油
+    potential_risks:
+    - 可能含反式脂肪酸
+    safe_limits: 尽量减少摄入
+    common_products:
+    - 糕点
+    - 人造奶油
+    - 零食
+    tags:
+    - 成分不透明
+    - 反式脂肪风险
+  精炼植物油:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: 多种植物油混合或未标明具体品种
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 零食
+    - 烘焙食品
+    tags: []
+    aliases:
+    - 植物油
+  香辛料提取物:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: 多种香辛料的提取物
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 肉制品
+    - 调味料
+    tags: []

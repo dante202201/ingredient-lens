@@ -1,0 +1,965 @@
+# 食品添加剂知识库
+# aliases: 商品名/别称  ocr_corrections: 常见 OCR 误识别  tags: 用户关注标签
+
+ingredients:
+  苯甲酸钠:
+    category: 防腐剂
+    safety_level: caution
+    description: 常用的食品防腐剂
+    potential_risks:
+      - 可能引起过敏反应
+      - 长期过量摄入可能对肝脏造成负担
+    safe_limits: 最大使用量 1g/kg
+    common_products:
+      - 饮料
+      - 酱油
+      - 果酱
+    e_number: E211
+    tags:
+      - 防腐剂
+      - 人工合成
+    ocr_corrections:
+      - 非甲酸钠
+      - 苯甲酸纳
+
+  山梨酸钾:
+    category: 防腐剂
+    safety_level: caution
+    description: 常用的食品防腐剂，相对安全
+    potential_risks:
+      - 可能引起皮肤过敏
+      - 过量可能影响消化系统
+    safe_limits: 最大使用量 2g/kg
+    common_products:
+      - 饮料
+      - 果酱
+      - 面包
+      - 糕点
+    e_number: E202
+    tags:
+      - 防腐剂
+
+  脱氢乙酸钠:
+    category: 防腐剂
+    safety_level: caution
+    description: 广谱防腐剂
+    potential_risks:
+      - 长期过量可能影响健康
+    safe_limits: 最大使用量 0.5g/kg
+    common_products:
+      - 面包
+      - 糕点
+      - 酱菜
+    tags:
+      - 防腐剂
+
+  对羟基苯甲酸酯:
+    category: 防腐剂
+    safety_level: warning
+    description: 防腐剂，可能影响内分泌
+    potential_risks:
+      - 可能影响内分泌系统
+      - 可能引起过敏
+    safe_limits: 限量使用
+    common_products:
+      - 饮料
+      - 调味品
+    tags:
+      - 防腐剂
+      - 人工合成
+
+  阿斯巴甜:
+    category: 甜味剂
+    safety_level: warning
+    description: 人工甜味剂
+    potential_risks:
+      - 苯丙酮尿症患者禁用
+      - 可能引起头痛
+    safe_limits: 适量使用
+    common_products:
+      - 无糖饮料
+      - 口香糖
+      - 低糖食品
+    e_number: E951
+    aliases:
+      - 阿斯巴甜(含苯丙氨酸)
+    tags:
+      - 甜味剂
+      - 人工合成
+      - 苯丙酮尿症禁用
+
+  糖精钠:
+    category: 甜味剂
+    safety_level: warning
+    description: 人工甜味剂，甜度高
+    potential_risks:
+      - 长期大量摄入可能有害
+      - 可能影响味觉
+    safe_limits: 最大使用量 0.15g/kg
+    common_products:
+      - 饮料
+      - 蜜饯
+      - 口香糖
+    e_number: E954
+    tags:
+      - 甜味剂
+      - 人工合成
+
+  甜蜜素:
+    category: 甜味剂
+    safety_level: warning
+    description: 人工甜味剂
+    potential_risks:
+      - 长期过量可能对健康不利
+    safe_limits: 最大使用量 0.65g/kg
+    common_products:
+      - 饮料
+      - 蜜饯
+      - 果冻
+    e_number: E952
+    tags:
+      - 甜味剂
+      - 人工合成
+
+  三氯蔗糖:
+    category: 甜味剂
+    safety_level: caution
+    description: 人工甜味剂，相对安全
+    potential_risks:
+      - 可能影响肠道菌群
+    safe_limits: 适量使用
+    common_products:
+      - 无糖饮料
+      - 低糖食品
+    e_number: E955
+    aliases:
+      - 蔗糖素
+    tags:
+      - 甜味剂
+      - 人工合成
+
+  安赛蜜:
+    category: 甜味剂
+    safety_level: caution
+    description: 人工甜味剂
+    potential_risks:
+      - 长期大量摄入需注意
+    safe_limits: 最大使用量 0.3g/kg
+    common_products:
+      - 饮料
+      - 口香糖
+      - 果冻
+    e_number: E950
+    aliases:
+      - AK糖
+      - 乙酰磺胺酸钾
+    tags:
+      - 甜味剂
+      - 人工合成
+
+  柠檬黄:
+    category: 色素
+    safety_level: warning
+    description: 合成黄色素
+    potential_risks:
+      - 可能引起过敏反应
+      - 儿童多动症风险
+    safe_limits: 最大使用量 0.1g/kg
+    common_products:
+      - 饮料
+      - 糖果
+      - 糕点
+    e_number: E102
+    tags:
+      - 色素
+      - 人工合成
+      - 儿童慎用
+
+  日落黄:
+    category: 色素
+    safety_level: warning
+    description: 合成橙黄色素
+    potential_risks:
+      - 可能引起过敏
+      - 儿童需谨慎
+    safe_limits: 最大使用量 0.1g/kg
+    common_products:
+      - 饮料
+      - 糖果
+      - 果冻
+    e_number: E110
+    tags:
+      - 色素
+      - 人工合成
+      - 儿童慎用
+
+  胭脂红:
+    category: 色素
+    safety_level: warning
+    description: 合成红色素
+    potential_risks:
+      - 可能引起过敏反应
+    safe_limits: 最大使用量 0.05g/kg
+    common_products:
+      - 饮料
+      - 糖果
+      - 果酱
+    e_number: E124
+    tags:
+      - 色素
+      - 人工合成
+
+  亮蓝:
+    category: 色素
+    safety_level: caution
+    description: 合成蓝色素
+    potential_risks:
+      - 可能引起过敏
+    safe_limits: 最大使用量 0.025g/kg
+    common_products:
+      - 饮料
+      - 糖果
+      - 冰淇淋
+    e_number: E133
+    tags:
+      - 色素
+      - 人工合成
+
+  焦糖色:
+    category: 色素
+    safety_level: safe
+    description: 天然色素，相对安全
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 酱油
+      - 可乐
+      - 啤酒
+    tags:
+      - 色素
+
+  卡拉胶:
+    category: 增稠剂
+    safety_level: caution
+    description: 天然增稠剂
+    potential_risks:
+      - 可能影响消化系统
+      - 过量可能引起不适
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 果冻
+      - 冰淇淋
+      - 酸奶
+    tags:
+      - 增稠剂
+
+  黄原胶:
+    category: 增稠剂
+    safety_level: safe
+    description: 天然增稠剂，相对安全
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 果酱
+      - 沙拉酱
+    tags:
+      - 增稠剂
+
+  羧甲基纤维素钠:
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠稳定剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 冰淇淋
+      - 果冻
+    aliases:
+      - CMC
+      - 羧甲基纤维素
+    tags:
+      - 增稠剂
+
+  明胶:
+    category: 增稠剂
+    safety_level: safe
+    description: 天然增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 果冻
+      - 软糖
+      - 酸奶
+    tags:
+      - 增稠剂
+
+  单硬脂酸甘油酯:
+    category: 乳化剂
+    safety_level: safe
+    description: 食品乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 面包
+      - 糕点
+      - 冰淇淋
+    aliases:
+      - 单甘酯
+    tags:
+      - 乳化剂
+
+  蔗糖脂肪酸酯:
+    category: 乳化剂
+    safety_level: safe
+    description: 食品乳化剂
+    potential_risks: []
+    safe_limits: 最大使用量 3g/kg
+    common_products:
+      - 面包
+      - 糕点
+      - 饮料
+    tags:
+      - 乳化剂
+
+  BHA:
+    category: 抗氧化剂
+    safety_level: warning
+    description: 丁基羟基茴香醚，合成抗氧化剂
+    potential_risks:
+      - 可能影响内分泌
+      - 长期大量摄入需注意
+    safe_limits: 最大使用量 0.2g/kg
+    common_products:
+      - 油脂
+      - 方便面
+      - 饼干
+    aliases:
+      - 丁基羟基茴香醚
+    tags:
+      - 抗氧化剂
+      - 人工合成
+
+  BHT:
+    category: 抗氧化剂
+    safety_level: warning
+    description: 二丁基羟基甲苯，合成抗氧化剂
+    potential_risks:
+      - 可能影响健康
+      - 长期大量摄入需注意
+    safe_limits: 最大使用量 0.2g/kg
+    common_products:
+      - 油脂
+      - 方便面
+      - 口香糖
+    aliases:
+      - 二丁基羟基甲苯
+    tags:
+      - 抗氧化剂
+      - 人工合成
+
+  TBHQ:
+    category: 抗氧化剂
+    safety_level: caution
+    description: 特丁基对苯二酚，抗氧化剂
+    potential_risks:
+      - 过量可能有害
+    safe_limits: 最大使用量 0.2g/kg
+    common_products:
+      - 油脂
+      - 方便面
+    aliases:
+      - 特丁基对苯二酚
+    tags:
+      - 抗氧化剂
+
+  柠檬酸:
+    category: 酸度调节剂
+    safety_level: safe
+    description: 天然酸味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 糖果
+      - 果酱
+    e_number: E330
+    tags:
+      - 酸度调节剂
+
+  柠檬酸钠:
+    category: 酸度调节剂
+    safety_level: safe
+    description: 柠檬酸的钠盐，常用 pH 调节剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 奶酪
+      - 果酱
+    e_number: E331
+    tags:
+      - 酸度调节剂
+
+  苹果酸:
+    category: 酸度调节剂
+    safety_level: safe
+    description: 天然酸味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 糖果
+    tags:
+      - 酸度调节剂
+
+  维生素C:
+    category: 营养强化剂
+    safety_level: safe
+    description: 抗氧化剂和营养强化剂
+    potential_risks: []
+    safe_limits: 无严格限制
+    common_products:
+      - 果汁
+      - 保健品
+      - 饮料
+    aliases:
+      - 抗坏血酸
+      - 维生素 C
+    tags:
+      - 营养强化剂
+
+  维生素E:
+    category: 营养强化剂
+    safety_level: safe
+    description: 抗氧化剂和营养强化剂
+    potential_risks: []
+    safe_limits: 无严格限制
+    common_products:
+      - 食用油
+      - 保健品
+      - 饮料
+    aliases:
+      - 生育酚
+      - 维生素 E
+    tags:
+      - 营养强化剂
+
+  咖啡因:
+    category: 其他
+    safety_level: caution
+    description: 天然生物碱，常见于咖啡、茶和可乐类饮料
+    potential_risks:
+      - 敏感人群可能引起心悸、失眠
+      - 儿童、孕妇应限制摄入
+    safe_limits: 成人每日建议不超过 400mg
+    common_products:
+      - 可乐
+      - 功能饮料
+      - 茶饮料
+    tags:
+      - 儿童慎用
+      - 孕妇慎用
+
+  二氧化碳:
+    category: 其他
+    safety_level: safe
+    description: 碳酸饮料的发泡剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 碳酸饮料
+      - 啤酒
+    tags: []
+
+  食用香精:
+    category: 其他
+    safety_level: caution
+    description: 食品用香料混合物，具体成分通常不标注
+    potential_risks:
+      - 成分不透明，敏感人群需注意
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 糖果
+      - 糕点
+    tags:
+      - 成分不透明
+
+  # ---- GB 2760 常见添加剂扩展 ----
+
+  谷氨酸钠:
+    category: 增味剂
+    safety_level: caution
+    description: 常用增味剂，俗称味精
+    potential_risks:
+      - 部分敏感人群可能出现「中国餐馆综合征」样不适
+      - 高血压人群应控制钠摄入
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 方便面
+      - 调味料
+      - 零食
+    aliases:
+      - 味精
+      - 味素
+    tags:
+      - 增味剂
+      - 含钠
+
+  5-呈味核苷酸二钠:
+    category: 增味剂
+    safety_level: safe
+    description: 与谷氨酸钠协同增鲜的核苷酸类增味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 方便面
+      - 调味料
+      - 火腿肠
+    aliases:
+      - I+G
+      - 呈味核苷酸二钠
+    tags:
+      - 增味剂
+
+  肌苷酸二钠:
+    category: 增味剂
+    safety_level: safe
+    description: 核苷酸类增味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 调味料
+      - 汤料
+    tags:
+      - 增味剂
+
+  木糖醇:
+    category: 甜味剂
+    safety_level: caution
+    description: 糖醇类甜味剂，低热量
+    potential_risks:
+      - 大量摄入可能引起腹泻
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 口香糖
+      - 无糖糖果
+      - 烘焙食品
+    tags:
+      - 甜味剂
+
+  麦芽糖醇:
+    category: 甜味剂
+    safety_level: caution
+    description: 糖醇类甜味剂
+    potential_risks:
+      - 过量可能引起渗透性腹泻
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 无糖巧克力
+      - 糖果
+    tags:
+      - 甜味剂
+
+  赤藓糖醇:
+    category: 甜味剂
+    safety_level: safe
+    description: 天然来源糖醇，热量极低
+    potential_risks:
+      - 大量摄入可能引起轻微肠胃不适
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 无糖饮料
+      - 烘焙食品
+    tags:
+      - 甜味剂
+
+  纽甜:
+    category: 甜味剂
+    safety_level: caution
+    description: 高强度人工甜味剂
+    potential_risks:
+      - 长期大量摄入数据有限，建议适量
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 饮料
+      - 低糖食品
+    tags:
+      - 甜味剂
+      - 人工合成
+
+  丙酸钙:
+    category: 防腐剂
+    safety_level: safe
+    description: 面包和糕点常用防霉防腐剂
+    potential_risks: []
+    safe_limits: 最大使用量 2.5g/kg
+    common_products:
+      - 面包
+      - 糕点
+    e_number: E282
+    tags:
+      - 防腐剂
+
+  纳他霉素:
+    category: 防腐剂
+    safety_level: caution
+    description: 生物防腐剂，常用于奶酪和肉制品表面
+    potential_risks:
+      - 一般仅用于食品表面，避免大量摄入
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 奶酪
+      - 香肠
+    tags:
+      - 防腐剂
+
+  乳酸链球菌素:
+    category: 防腐剂
+    safety_level: safe
+    description: 天然细菌素类防腐剂
+    potential_risks: []
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 乳制品
+      - 罐头
+    tags:
+      - 防腐剂
+
+  诱惑红:
+    category: 色素
+    safety_level: warning
+    description: 偶氮类合成红色素
+    potential_risks:
+      - 可能引起过敏
+      - 儿童长期大量摄入需谨慎
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 糖果
+      - 饮料
+    e_number: E129
+    tags:
+      - 色素
+      - 人工合成
+      - 儿童慎用
+
+  赤藓红:
+    category: 色素
+    safety_level: warning
+    description: 合成红色素，常用于樱桃制品
+    potential_risks:
+      - 可能引起过敏
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 糖果
+      - 樱桃制品
+    e_number: E127
+    tags:
+      - 色素
+      - 人工合成
+
+  靛蓝:
+    category: 色素
+    safety_level: warning
+    description: 合成蓝色素
+    potential_risks:
+      - 可能引起过敏
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 糖果
+      - 冰淇淋
+    e_number: E132
+    aliases:
+      - 靛蓝铝色淀
+    tags:
+      - 色素
+      - 人工合成
+
+  姜黄:
+    category: 色素
+    safety_level: safe
+    description: 天然黄色素，来源于姜黄根茎
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 咖喱
+      - 黄色糖果
+    aliases:
+      - 姜黄素
+    tags:
+      - 色素
+
+  β-胡萝卜素:
+    category: 色素
+    safety_level: safe
+    description: 天然橙黄色素，亦可作为营养强化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 黄油
+      - 人造奶油
+    aliases:
+      - 胡萝卜素
+    tags:
+      - 色素
+      - 营养强化剂
+
+  二氧化钛:
+    category: 色素
+    safety_level: warning
+    description: 白色着色剂，常用于糖果和糕点
+    potential_risks:
+      - 纳米颗粒长期摄入安全性存在争议
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 糖果
+      - 口香糖
+      - 白色糕点
+    e_number: E171
+    tags:
+      - 色素
+      - 人工合成
+
+  琼脂:
+    category: 增稠剂
+    safety_level: safe
+    description: 海藻来源增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 果冻
+      - 软糖
+    tags:
+      - 增稠剂
+
+  果胶:
+    category: 增稠剂
+    safety_level: safe
+    description: 水果来源增稠剂和凝胶剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 果酱
+      - 果冻
+      - 酸奶
+    tags:
+      - 增稠剂
+
+  瓜尔胶:
+    category: 增稠剂
+    safety_level: safe
+    description: 豆科植物来源增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 冰淇淋
+      - 酱料
+    tags:
+      - 增稠剂
+
+  海藻酸钠:
+    category: 增稠剂
+    safety_level: safe
+    description: 海藻来源增稠剂和凝胶剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 果冻
+      - 面条
+    aliases:
+      - 褐藻酸钠
+    tags:
+      - 增稠剂
+
+  改性淀粉:
+    category: 增稠剂
+    safety_level: safe
+    description: 经化学或物理处理的淀粉，用于增稠稳定
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 酱料
+      - 冷冻食品
+      - 零食
+    tags:
+      - 增稠剂
+
+  卵磷脂:
+    category: 乳化剂
+    safety_level: safe
+    description: 天然乳化剂，常见于巧克力和大豆制品
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 巧克力
+      - 人造奶油
+      - 面包
+    aliases:
+      - 大豆磷脂
+      - 磷脂
+    tags:
+      - 乳化剂
+
+  聚山梨酯60:
+    category: 乳化剂
+    safety_level: caution
+    description: 吐温类乳化剂
+    potential_risks:
+      - 长期大量摄入需注意
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 冰淇淋
+      - 蛋糕
+    aliases:
+      - 吐温60
+    tags:
+      - 乳化剂
+      - 人工合成
+
+  六偏磷酸钠:
+    category: 水分保持剂
+    safety_level: caution
+    description: 磷酸盐类水分保持剂和品质改良剂
+    potential_risks:
+      - 过量摄入可能增加磷负荷
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 火腿
+      - 水产加工品
+      - 饮料
+    tags:
+      - 磷酸盐
+      - 含钠
+
+  三聚磷酸钠:
+    category: 水分保持剂
+    safety_level: caution
+    description: 磷酸盐类水分保持剂
+    potential_risks:
+      - 过量摄入可能增加磷负荷
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 火腿
+      - 香肠
+    tags:
+      - 磷酸盐
+      - 含钠
+
+  焦磷酸钠:
+    category: 水分保持剂
+    safety_level: caution
+    description: 磷酸盐类品质改良剂
+    potential_risks:
+      - 过量摄入可能增加磷负荷
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 火腿
+      - 面食
+    tags:
+      - 磷酸盐
+
+  碳酸氢钠:
+    category: 膨松剂
+    safety_level: safe
+    description: 小苏打，常用膨松剂和 pH 调节剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饼干
+      - 蛋糕
+      - 面包
+    aliases:
+      - 小苏打
+      - 食用碱
+    tags:
+      - 膨松剂
+
+  乳酸:
+    category: 酸度调节剂
+    safety_level: safe
+    description: 常见有机酸，用于调节酸度和防腐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 饮料
+      - 泡菜
+      - 面包
+    e_number: E270
+    tags:
+      - 酸度调节剂
+
+  磷酸:
+    category: 酸度调节剂
+    safety_level: caution
+    description: 无机酸，用于饮料酸度调节
+    potential_risks:
+      - 过量可能影响钙磷代谢
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 可乐
+      - 功能饮料
+    tags:
+      - 酸度调节剂
+      - 磷酸盐
+
+  酒石酸:
+    category: 酸度调节剂
+    safety_level: safe
+    description: 天然有机酸
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+      - 糖果
+      - 饮料
+    e_number: E334
+    tags:
+      - 酸度调节剂
+
+  抗坏血酸棕榈酸酯:
+    category: 抗氧化剂
+    safety_level: safe
+    description: 维生素 C 的酯类衍生物，油脂抗氧化剂
+    potential_risks: []
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 食用油
+      - 含油零食
+    tags:
+      - 抗氧化剂
+
+  D-异抗坏血酸钠:
+    category: 抗氧化剂
+    safety_level: safe
+    description: 护色抗氧化剂，常用于肉制品和饮料
+    potential_risks: []
+    safe_limits: 按 GB 2760 限量使用
+    common_products:
+      - 火腿
+      - 饮料
+      - 啤酒
+    aliases:
+      - 异抗坏血酸钠
+      - 异维生素C钠
+    tags:
+      - 抗氧化剂
+
+  亚硝酸钠:
+    category: 护色剂
+    safety_level: warning
+    description: 肉制品护色防腐剂，需在严格限量下使用
+    potential_risks:
+      - 过量摄入有健康风险
+      - 可能与胺类形成亚硝胺
+    safe_limits: 严格限量，仅用于特定肉制品
+    common_products:
+      - 火腿
+      - 香肠
+      - 培根
+    tags:
+      - 护色剂
+      - 防腐剂
+      - 需限量
+

@@ -1,0 +1,2164 @@
+default_type: base
+ingredients:
+  食用酒精:
+    ingredient_type: base
+    category: 其他
+    safety_level: safe
+    description: 乙醇，常用于风味提取
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  乙醇:
+    ingredient_type: base
+    category: 其他
+    safety_level: safe
+    description: 食用乙醇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 食用酒精
+  蒸馏水:
+    ingredient_type: base
+    category: 液体基础
+    safety_level: safe
+    description: 纯净水
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  纯化水:
+    ingredient_type: base
+    category: 液体基础
+    safety_level: safe
+    description: 制药/食品级纯水
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  全脂奶粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 乳固体原料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 乳
+  脱脂奶粉:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 脱脂乳粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 乳
+  乳清蛋白:
+    ingredient_type: base
+    category: 乳制品
+    safety_level: safe
+    description: 乳清来源蛋白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 乳
+  可可液块:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 巧克力基础原料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  可可脂:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 巧克力油脂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  代可可脂:
+    ingredient_type: composite
+    category: 油脂
+    safety_level: safe
+    description: 可可脂替代脂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 成分不透明
+  起酥油:
+    ingredient_type: composite
+    category: 油脂
+    safety_level: caution
+    description: 烘焙油脂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  人造黄油:
+    ingredient_type: base
+    category: 油脂
+    safety_level: safe
+    description: 人造奶油类
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  植物奶油:
+    ingredient_type: composite
+    category: 油脂
+    safety_level: safe
+    description: 植脂奶油
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  麦胚:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 小麦胚芽
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 麸质
+  麦麸:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 麸皮
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 麸质
+  谷朊粉:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 面筋蛋白粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 麸质
+  预拌粉:
+    ingredient_type: composite
+    category: 谷物
+    safety_level: safe
+    description: 复合烘焙粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  面包改良剂:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: 复合添加剂混合物
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  酵母粉:
+    ingredient_type: base
+    category: 发酵基础
+    safety_level: safe
+    description: 干酵母
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  发酵粉:
+    ingredient_type: base
+    category: 膨松基础
+    safety_level: safe
+    description: 复合膨松剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 泡打粉
+  吉士粉:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: 复合增香增稠粉
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  卡士达粉:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: ' pastry cream 粉'
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  奶精:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: 非乳奶精
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 成分不透明
+  反式脂肪酸:
+    ingredient_type: composite
+    category: 油脂
+    safety_level: warning
+    description: 应尽量避免
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 反式脂肪风险
+  氢化植物油:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: warning
+    description: 可能含反式脂肪
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  精炼氢化植物油:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: warning
+    description: 可能含反式脂肪
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  食用葡萄糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 葡萄糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高糖
+  固体玉米糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 玉米糖浆固体
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  果葡糖浆:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 高果糖浆
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高糖
+  海藻糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 天然双糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  赤砂糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 红糖类
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高糖
+  黑糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 未精炼糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高糖
+  饴糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 麦芽糖制品
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  麦芽糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 双糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高糖
+  乳糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 乳中双糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 乳
+  低聚麦芽糖:
+    ingredient_type: base
+    category: 糖类
+    safety_level: safe
+    description: 功能性寡糖
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  聚葡萄糖:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 膳食纤维
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  抗性糊精:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 膳食纤维
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  膳食纤维粉:
+    ingredient_type: base
+    category: 功能基料
+    safety_level: safe
+    description: 纤维补充
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  蛋白胨:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 发酵/调味基底
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  胶原蛋白肽:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 小分子胶原
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  大豆分离蛋白:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 大豆蛋白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 大豆
+  组织蛋白:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 植物蛋白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 大豆
+  鸡蛋白:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 蛋清
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 蛋
+  咸鸭蛋黄:
+    ingredient_type: base
+    category: 蛋白来源
+    safety_level: safe
+    description: 蛋黄原料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 蛋
+  鱼糜:
+    ingredient_type: base
+    category: 水产
+    safety_level: safe
+    description: 鱼肉糜
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 鱼
+  虾粉:
+    ingredient_type: base
+    category: 水产
+    safety_level: safe
+    description: 虾味原料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 甲壳纲
+  扇贝提取物:
+    ingredient_type: base
+    category: 水产
+    safety_level: safe
+    description: 海鲜调味
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 甲壳纲
+  碘盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 加碘食盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高钠
+  低钠盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 减钠盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  海盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 未精制盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高钠
+  岩盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 矿物盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高钠
+  玫瑰盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 调味盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高钠
+  椒盐:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 复合调味盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 高钠
+  五香粉:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 复合香辛料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  十三香:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 复合香辛料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  咖喱粉:
+    ingredient_type: base
+    category: 调味基础
+    safety_level: safe
+    description: 复合香辛料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  奥尔良腌料:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: 复合调味料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  新奥尔良烤翅调料:
+    ingredient_type: composite
+    category: 复合配料
+    safety_level: safe
+    description: 复合调味料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  意大利面:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 小麦面条
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 麸质
+  乌冬面:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 小麦面条
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 麸质
+  拉面:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 小麦面条
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 麸质
+  即食面:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 方便面
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 麸质
+  粉丝:
+    ingredient_type: base
+    category: 谷物
+    safety_level: safe
+    description: 淀粉粉丝
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  魔芋粉:
+    ingredient_type: base
+    category: 增稠基础
+    safety_level: safe
+    description: 魔芋来源
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  魔芋胶:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  洋车前子壳粉:
+    ingredient_type: base
+    category: 功能基料
+    safety_level: safe
+    description: 膳食纤维
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  奇亚籽:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 超级食物种子
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  亚麻籽:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 富含 omega-3
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  葵花籽:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 坚果种子
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  南瓜籽:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 坚果种子
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  松子:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 坚果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 坚果
+  开心果:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 坚果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 坚果
+  巴旦木:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 扁桃仁
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 坚果
+    aliases:
+    - 杏仁
+  夏威夷果:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 澳洲坚果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 坚果
+  碧根果:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 坚果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 坚果
+  山核桃:
+    ingredient_type: base
+    category: 坚果
+    safety_level: safe
+    description: 坚果
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 坚果
+  蔓越莓干:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 果干
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  葡萄干:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 果干
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  枣泥:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 枣类原料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  山楂:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 水果原料
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  陈皮:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 柑橘皮
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  甘草:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 甜味草药
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  枸杞:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 药食同源
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  桂圆:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 龙眼干
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  莲子:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 干货
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  百合:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 干货
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  银耳:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 真菌
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  黑木耳:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 真菌
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  竹荪:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 真菌
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  茶树菇:
+    ingredient_type: base
+    category: 果蔬
+    safety_level: safe
+    description: 真菌
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  牛磺酸:
+    ingredient_type: additive
+    category: 营养强化剂
+    safety_level: safe
+    description: 功能饮料常见
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  左旋肉碱:
+    ingredient_type: additive
+    category: 营养强化剂
+    safety_level: caution
+    description: 运动饮料常见
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  肌醇:
+    ingredient_type: additive
+    category: 营养强化剂
+    safety_level: safe
+    description: B族相关
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  核苷酸:
+    ingredient_type: additive
+    category: 营养强化剂
+    safety_level: safe
+    description: 营养强化
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  低聚果糖:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 益生元
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  低聚半乳糖:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 益生元
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  磷脂:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: safe
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 大豆磷脂
+  单双甘油脂肪酸酯:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: safe
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 单双甘油酯
+  蔗糖酯:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: safe
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 蔗糖脂肪酸酯
+  山梨醇液:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: caution
+    description: 糖醇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 山梨糖醇液
+  D-山梨糖醇:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: caution
+    description: 糖醇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 山梨糖醇
+  L-半胱氨酸:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 面粉改良
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  双氧水:
+    ingredient_type: additive
+    category: 其他
+    safety_level: caution
+    description: 加工助剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  过氧化苯甲酰:
+    ingredient_type: additive
+    category: 漂白剂
+    safety_level: warning
+    description: 面粉漂白
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  硫磺:
+    ingredient_type: additive
+    category: 漂白剂
+    safety_level: warning
+    description: 漂白防腐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  焦亚硫酸钠:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: warning
+    description: 亚硫酸盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 防腐剂
+  亚硫酸钠:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: warning
+    description: 亚硫酸盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 防腐剂
+  脱氢乙酸:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: caution
+    description: 防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 脱氢乙酸钠
+  脱氢乙酸钠:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: caution
+    description: 防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    ocr_corrections:
+    - 脱氢乙酸纳
+  纳他霉素:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: caution
+    description: 生物防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  ε-聚赖氨酸:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: safe
+    description: 天然防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  溶菌酶:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: safe
+    description: 酶类防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  丙酸钙:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: safe
+    description: 面包防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E282
+  丙酸钠:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: safe
+    description: 防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  乳酸链球菌素:
+    ingredient_type: additive
+    category: 防腐剂
+    safety_level: safe
+    description: 细菌素防腐剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  红曲红:
+    ingredient_type: additive
+    category: 色素
+    safety_level: safe
+    description: 天然红色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  红曲米:
+    ingredient_type: additive
+    category: 色素
+    safety_level: safe
+    description: 发酵色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 红曲红
+  辣椒红:
+    ingredient_type: additive
+    category: 色素
+    safety_level: safe
+    description: 天然红色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E160c
+  栀子黄:
+    ingredient_type: additive
+    category: 色素
+    safety_level: safe
+    description: 天然黄色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  栀子蓝:
+    ingredient_type: additive
+    category: 色素
+    safety_level: safe
+    description: 天然蓝色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  叶绿素铜钠盐:
+    ingredient_type: additive
+    category: 色素
+    safety_level: safe
+    description: 绿色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E141
+  诱惑红:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E129
+  苋菜红:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  亮黑:
+    ingredient_type: additive
+    category: 色素
+    safety_level: caution
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  二氧化钛:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 白色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E171
+  新红:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  酸性红52:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  果绿:
+    ingredient_type: additive
+    category: 色素
+    safety_level: caution
+    description: 复合色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  日落黄:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    ocr_corrections:
+    - 日落黄
+    e_number: E110
+  柠檬黄:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E102
+  胭脂红:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 合成色素
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E124
+  诱惑红铝色淀:
+    ingredient_type: additive
+    category: 色素
+    safety_level: warning
+    description: 色淀
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 诱惑红
+  安赛蜜:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: caution
+    description: 人工甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E950
+  阿斯巴甜:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: warning
+    description: 人工甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E951
+  三氯蔗糖:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: caution
+    description: 人工甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 蔗糖素
+    e_number: E955
+  甜菊糖苷:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: safe
+    description: 天然高倍甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E960
+  罗汉果甜苷:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: safe
+    description: 天然高倍甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  纽甜:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: caution
+    description: 人工甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  糖精钠:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: warning
+    description: 人工甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E954
+  甜蜜素:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: warning
+    description: 人工甜味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E952
+  木糖醇:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: caution
+    description: 糖醇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  麦芽糖醇:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: caution
+    description: 糖醇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  赤藓糖醇:
+    ingredient_type: additive
+    category: 甜味剂
+    safety_level: safe
+    description: 糖醇
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  谷氨酸钠:
+    ingredient_type: additive
+    category: 增味剂
+    safety_level: caution
+    description: 增味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 味精
+    e_number: E621
+  5-呈味核苷酸二钠:
+    ingredient_type: additive
+    category: 增味剂
+    safety_level: safe
+    description: 增味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - I+G
+  呈味核苷酸二钠:
+    ingredient_type: additive
+    category: 增味剂
+    safety_level: safe
+    description: 增味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - I+G
+  肌苷酸二钠:
+    ingredient_type: additive
+    category: 增味剂
+    safety_level: safe
+    description: 增味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  鸟苷酸二钠:
+    ingredient_type: additive
+    category: 增味剂
+    safety_level: safe
+    description: 增味剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  六偏磷酸钠:
+    ingredient_type: additive
+    category: 水分保持剂
+    safety_level: caution
+    description: 磷酸盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  三聚磷酸钠:
+    ingredient_type: additive
+    category: 水分保持剂
+    safety_level: caution
+    description: 磷酸盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E451
+  焦磷酸钠:
+    ingredient_type: additive
+    category: 水分保持剂
+    safety_level: caution
+    description: 磷酸盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E450
+  磷酸二氢钠:
+    ingredient_type: additive
+    category: 酸度调节剂
+    safety_level: caution
+    description: 磷酸盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  焦磷酸二氢二钠:
+    ingredient_type: additive
+    category: 水分保持剂
+    safety_level: caution
+    description: 磷酸盐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  碳酸氢钠:
+    ingredient_type: additive
+    category: 膨松剂
+    safety_level: safe
+    description: 膨松剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 小苏打
+  碳酸钠:
+    ingredient_type: additive
+    category: 酸度调节剂
+    safety_level: safe
+    description: 碱剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E500
+  碳酸钙:
+    ingredient_type: additive
+    category: 营养强化剂
+    safety_level: safe
+    description: 钙强化
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E170
+  乳酸钙:
+    ingredient_type: additive
+    category: 营养强化剂
+    safety_level: safe
+    description: 钙强化
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  柠檬酸钙:
+    ingredient_type: additive
+    category: 营养强化剂
+    safety_level: safe
+    description: 钙强化
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  氯化钙:
+    ingredient_type: additive
+    category: 凝固剂
+    safety_level: safe
+    description: 凝固剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E509
+  硫酸钙:
+    ingredient_type: additive
+    category: 凝固剂
+    safety_level: safe
+    description: 豆腐凝固剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 石膏
+  氯化镁:
+    ingredient_type: additive
+    category: 凝固剂
+    safety_level: safe
+    description: 豆腐凝固剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 盐卤
+  葡萄糖酸-δ-内酯:
+    ingredient_type: additive
+    category: 凝固剂
+    safety_level: safe
+    description: 内酯豆腐
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - GDL
+  TBHQ:
+    ingredient_type: additive
+    category: 抗氧化剂
+    safety_level: caution
+    description: 抗氧化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  BHA:
+    ingredient_type: additive
+    category: 抗氧化剂
+    safety_level: warning
+    description: 抗氧化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  BHT:
+    ingredient_type: additive
+    category: 抗氧化剂
+    safety_level: warning
+    description: 抗氧化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  D-异抗坏血酸钠:
+    ingredient_type: additive
+    category: 抗氧化剂
+    safety_level: safe
+    description: 护色抗氧化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 异抗坏血酸钠
+  抗坏血酸棕榈酸酯:
+    ingredient_type: additive
+    category: 抗氧化剂
+    safety_level: safe
+    description: 油脂抗氧化
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  茶多酚:
+    ingredient_type: additive
+    category: 抗氧化剂
+    safety_level: safe
+    description: 天然抗氧化
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  迷迭香提取物:
+    ingredient_type: additive
+    category: 抗氧化剂
+    safety_level: safe
+    description: 天然抗氧化
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  亚硝酸钠:
+    ingredient_type: additive
+    category: 护色剂
+    safety_level: warning
+    description: 肉制品护色
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 需限量
+  硝酸钾:
+    ingredient_type: additive
+    category: 护色剂
+    safety_level: warning
+    description: 肉制品护色
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  异抗坏血酸:
+    ingredient_type: additive
+    category: 护色剂
+    safety_level: safe
+    description: 护色剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  明矾:
+    ingredient_type: additive
+    category: 其他
+    safety_level: caution
+    description: 含铝添加剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 含铝
+    aliases:
+    - 硫酸铝钾
+  硫酸铝钾:
+    ingredient_type: additive
+    category: 膨松剂
+    safety_level: caution
+    description: 含铝膨松剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags:
+    - 含铝
+    aliases:
+    - 明矾
+  阿拉伯胶:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 金合欢胶
+    e_number: E414
+  刺槐豆胶:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 槐豆胶
+    e_number: E410
+  刺云实胶:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 他拉胶
+    e_number: E417
+  可得然胶:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  结冷胶:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E418
+  微晶纤维素:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - MCC
+    e_number: E460
+  甲基纤维素:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - MC
+    e_number: E461
+  羟丙基甲基纤维素:
+    ingredient_type: additive
+    category: 增稠剂
+    safety_level: safe
+    description: 增稠剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - HPMC
+    e_number: E464
+  辛烯基琥珀酸淀粉钠:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: safe
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - OSA淀粉
+  单硬脂酸甘油酯:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: safe
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 单甘酯
+    e_number: E471
+  蔗糖脂肪酸酯:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: safe
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E473
+  聚山梨酯60:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: caution
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 吐温60
+    e_number: E435
+  聚山梨酯80:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: caution
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 吐温80
+    e_number: E433
+  司盘60:
+    ingredient_type: additive
+    category: 乳化剂
+    safety_level: caution
+    description: 乳化剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - Span60
+  甘油:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 保湿剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 丙三醇
+    e_number: E422
+  丙二醇:
+    ingredient_type: additive
+    category: 其他
+    safety_level: caution
+    description: 溶剂保湿
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E1520
+  二氧化硅:
+    ingredient_type: additive
+    category: 抗结剂
+    safety_level: safe
+    description: 抗结剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    e_number: E551
+  硬脂酸镁:
+    ingredient_type: additive
+    category: 抗结剂
+    safety_level: safe
+    description: 抗结剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  液体二氧化碳:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 发泡剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - 二氧化碳
+  氮气:
+    ingredient_type: additive
+    category: 其他
+    safety_level: safe
+    description: 填充气体
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  木瓜蛋白酶:
+    ingredient_type: additive
+    category: 酶制剂
+    safety_level: safe
+    description: 酶制剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  α-淀粉酶:
+    ingredient_type: additive
+    category: 酶制剂
+    safety_level: safe
+    description: 酶制剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  转谷氨酰胺酶:
+    ingredient_type: additive
+    category: 酶制剂
+    safety_level: safe
+    description: 酶制剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+    aliases:
+    - TG酶
+  脂肪酶:
+    ingredient_type: additive
+    category: 酶制剂
+    safety_level: safe
+    description: 酶制剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  蛋白酶:
+    ingredient_type: additive
+    category: 酶制剂
+    safety_level: safe
+    description: 酶制剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []
+  纤维素酶:
+    ingredient_type: additive
+    category: 酶制剂
+    safety_level: safe
+    description: 酶制剂
+    potential_risks: []
+    safe_limits: 按生产需要适量使用
+    common_products:
+    - 预包装食品
+    tags: []

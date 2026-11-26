@@ -1,0 +1,167 @@
+default_type: allergen
+ingredients:
+  含麸质谷物:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 含麸质谷物及其制品，如小麦、黑麦、大麦
+    potential_risks:
+    - 麸质不耐受/乳糜泻患者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 面包
+    - 面条
+    - 酱油
+    tags:
+    - 过敏原
+    - 麸质
+    aliases:
+    - 麸质
+    - 面筋
+    - 小麦蛋白
+  甲壳纲类动物:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 甲壳纲类动物及其制品，如虾、蟹
+    potential_risks:
+    - 甲壳类过敏者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 蚝油
+    - 虾酱
+    - 海鲜味零食
+    tags:
+    - 过敏原
+    - 甲壳纲
+    aliases:
+    - 甲壳类
+    - 虾蟹类
+  鱼类:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 鱼类及其制品
+    potential_risks:
+    - 鱼类过敏者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 鱼露
+    - 鱼糜制品
+    tags:
+    - 过敏原
+    - 鱼
+    aliases:
+    - 鱼制品
+    - 鱼蛋白
+  蛋类:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 蛋类及其制品
+    potential_risks:
+    - 鸡蛋过敏者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 蛋糕
+    - 蛋黄酱
+    - 面条
+    tags:
+    - 过敏原
+    - 蛋
+    aliases:
+    - 鸡蛋制品
+    - 蛋粉
+  花生:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 花生及其制品
+    potential_risks:
+    - 花生过敏者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 花生酱
+    - 饼干
+    - 糖果
+    tags:
+    - 过敏原
+    - 花生
+    aliases:
+    - 花生制品
+  大豆:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 大豆及其制品
+    potential_risks:
+    - 大豆过敏者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 酱油
+    - 豆腐
+    - 豆奶
+    tags:
+    - 过敏原
+    - 大豆
+    aliases:
+    - 大豆制品
+    - 豆制品
+  乳:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 乳及乳制品，包括乳糖
+    potential_risks:
+    - 乳糖不耐受/牛奶蛋白过敏者需注意
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 酸奶
+    - 奶酪
+    - 含乳饮料
+    tags:
+    - 过敏原
+    - 乳
+    aliases:
+    - 乳制品
+    - 牛奶蛋白
+    - 乳糖
+  坚果:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 坚果及其果仁类制品
+    potential_risks:
+    - 坚果过敏者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 混合坚果
+    - 杏仁露
+    - 核桃乳
+    tags:
+    - 过敏原
+    - 坚果
+    aliases:
+    - 果仁
+    - 树坚果
+    - 杏仁
+    - 核桃
+    - 腰果
+    - 榛子
+  芝麻:
+    ingredient_type: allergen
+    category: 过敏原
+    safety_level: caution
+    description: 芝麻及其制品
+    potential_risks:
+    - 芝麻过敏者需避免
+    safe_limits: 过敏人群应避免
+    common_products:
+    - 芝麻酱
+    - 芝麻糊
+    - 面包
+    tags:
+    - 过敏原
+    - 芝麻
+    aliases:
+    - 芝麻制品

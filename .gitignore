@@ -1,0 +1,11 @@
+.env
+.env.local
+*.pyc
+__pycache__/
+.pytest_cache/
+.DS_Store
+data/aiana.db
+uploads/
+.venv/
+models/__pycache__
+services/__pycache__

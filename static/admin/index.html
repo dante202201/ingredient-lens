@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>成分库管理后台</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #fff;
+      --border: #e5e7eb;
+      --text: #111827;
+      --muted: #6b7280;
+      --primary: #2563eb;
+      --danger: #dc2626;
+      --success: #059669;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      background: var(--card);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 { margin: 0; font-size: 20px; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    .tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+    .tab, .btn {
+      border: 1px solid var(--border);
+      background: var(--card);
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .tab.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .btn.primary { background: var(--primary); color: #fff; border-color: var(--primary); }
+    .btn.danger { background: var(--danger); color: #fff; border-color: var(--danger); }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+    .stat { background: #f9fafb; border-radius: 8px; padding: 12px; }
+    .stat .label { color: var(--muted); font-size: 12px; }
+    .stat .value { font-size: 24px; font-weight: 700; margin-top: 4px; }
+    .toolbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; align-items: center; }
+    input, select, textarea {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 14px;
+      width: 100%;
+    }
+    textarea { min-height: 72px; resize: vertical; }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { border-bottom: 1px solid var(--border); padding: 10px 8px; text-align: left; vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      background: #eef2ff;
+      color: #3730a3;
+    }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .hidden { display: none !important; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .msg { padding: 10px 12px; border-radius: 8px; margin-bottom: 12px; }
+    .msg.ok { background: #ecfdf5; color: var(--success); }
+    .msg.err { background: #fef2f2; color: var(--danger); }
+    .token-bar { display: flex; gap: 8px; align-items: center; }
+    .token-bar input { width: 220px; }
+    @media (max-width: 768px) {
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>食品成分库 · 管理后台</h1>
+    <div class="token-bar">
+      <input id="adminToken" type="password" placeholder="Admin Token（可选）" />
+      <button class="btn" onclick="saveToken()">保存</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <div id="message"></div>
+
+    <div class="tabs">
+      <button class="tab active" data-tab="dashboard">概览</button>
+      <button class="tab" data-tab="ingredients">成分管理</button>
+      <button class="tab" data-tab="unknown">未收录候选</button>
+      <button class="tab" data-tab="ocr">OCR 纠错</button>
+      <button class="tab" data-tab="editor">编辑/新增</button>
+    </div>
+
+    <section id="panel-dashboard" class="panel">
+      <div class="card">
+        <div class="toolbar">
+          <button class="btn primary" onclick="loadStats()">刷新统计</button>
+          <button class="btn" onclick="reloadDatabase()">从 YAML/CSV 重新导入</button>
+          <button class="btn" onclick="exportYaml()">导出 YAML 备份</button>
+        </div>
+        <div id="stats" class="stats"></div>
+      </div>
+      <div class="card">
+        <h3>高频未收录成分</h3>
+        <div id="topUnknown"></div>
+      </div>
+    </section>
+
+    <section id="panel-ingredients" class="panel hidden">
+      <div class="card">
+        <div class="toolbar">
+          <input id="searchQ" placeholder="搜索名称/别名/描述" style="max-width:260px" />
+          <select id="filterType" style="max-width:160px">
+            <option value="">全部类型</option>
+            <option value="base">基础原料</option>
+            <option value="additive">添加剂</option>
+            <option value="allergen">过敏原</option>
+            <option value="composite">复合配料</option>
+          </select>
+          <button class="btn primary" onclick="loadIngredients(1)">搜索</button>
+          <button class="btn" onclick="newIngredient()">新增成分</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>名称</th><th>类型</th><th>类别</th><th>安全</th><th>描述</th><th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="ingredientRows"></tbody>
+        </table>
+        <div class="toolbar" style="margin-top:12px">
+          <button class="btn" onclick="prevPage()">上一页</button>
+          <span id="pageInfo"></span>
+          <button class="btn" onclick="nextPage()">下一页</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="panel-unknown" class="panel hidden">
+      <div class="card">
+        <div class="toolbar">
+          <button class="btn primary" onclick="loadUnknown()">刷新候选</button>
+        </div>
+        <table>
+          <thead><tr><th>文本</th><th>出现次数</th><th>操作</th></tr></thead>
+          <tbody id="unknownRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="panel-ocr" class="panel hidden">
+      <div class="card">
+        <h3>添加 OCR 纠错</h3>
+        <div class="grid-2">
+          <input id="ocrText" placeholder="OCR 误识别文本，如：非甲酸钠" />
+          <input id="ocrCanonical" placeholder="标准名称，如：苯甲酸钠" />
+        </div>
+        <div class="toolbar" style="margin-top:12px">
+          <button class="btn primary" onclick="submitOcr()">保存纠错</button>
+          <button class="btn" onclick="loadOcrList()">刷新列表</button>
+        </div>
+      </div>
+      <div class="card">
+        <table>
+          <thead><tr><th>OCR 文本</th><th>标准名</th><th>次数</th><th>来源</th></tr></thead>
+          <tbody id="ocrRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="panel-editor" class="panel hidden">
+      <div class="card">
+        <h3 id="editorTitle">新增成分</h3>
+        <input type="hidden" id="editOriginalName" />
+        <div class="grid-2">
+          <div><label>名称 *</label><input id="fName" /></div>
+          <div><label>类型</label>
+            <select id="fType">
+              <option value="additive">添加剂</option>
+              <option value="base">基础原料</option>
+              <option value="allergen">过敏原</option>
+              <option value="composite">复合配料</option>
+            </select>
+          </div>
+          <div><label>类别</label><input id="fCategory" placeholder="如：防腐剂、谷物" /></div>
+          <div><label>安全等级</label>
+            <select id="fSafety">
+              <option value="safe">safe</option>
+              <option value="caution">caution</option>
+              <option value="warning">warning</option>
+              <option value="dangerous">dangerous</option>
+            </select>
+          </div>
+          <div><label>E 编号</label><input id="fENumber" placeholder="E330" /></div>
+          <div><label>限量说明</label><input id="fLimits" /></div>
+        </div>
+        <div style="margin-top:12px"><label>描述</label><textarea id="fDesc"></textarea></div>
+        <div class="grid-2" style="margin-top:12px">
+          <div><label>别名（每行一个）</label><textarea id="fAliases"></textarea></div>
+          <div><label>OCR 纠错（每行一个）</label><textarea id="fOcr"></textarea></div>
+        </div>
+        <div class="grid-2" style="margin-top:12px">
+          <div><label>潜在风险（每行一个）</label><textarea id="fRisks"></textarea></div>
+          <div><label>标签（每行一个）</label><textarea id="fTags"></textarea></div>
+        </div>
+        <div style="margin-top:12px"><label>常见产品（每行一个）</label><textarea id="fProducts"></textarea></div>
+        <div class="toolbar" style="margin-top:16px">
+          <button class="btn primary" onclick="saveIngredient()">保存</button>
+          <button class="btn" onclick="newIngredient()">清空表单</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    let page = 1;
+    let totalPages = 1;
+
+    function token() {
+      return localStorage.getItem("adminToken") || "";
+    }
+
+    function saveToken() {
+      localStorage.setItem("adminToken", document.getElementById("adminToken").value.trim());
+      showMsg("Token 已保存", "ok");
+    }
+
+    document.getElementById("adminToken").value = token();
+
+    function showMsg(text, type = "ok") {
+      const el = document.getElementById("message");
+      el.className = "msg " + type;
+      el.textContent = text;
+      setTimeout(() => { el.textContent = ""; el.className = ""; }, 4000);
+    }
+
+    async function api(path, options = {}) {
+      const headers = Object.assign({}, options.headers || {}, {
+        "X-Admin-Token": token(),
+      });
+      if (!(options.body instanceof FormData)) {
+        headers["Content-Type"] = "application/json";
+      }
+      const res = await fetch(path, Object.assign({}, options, { headers }));
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.detail || data.message || "请求失败");
+      return data;
+    }
+
+    function lines(v) {
+      return (v || "").split("\n").map(s => s.trim()).filter(Boolean);
+    }
+
+    function setLines(id, arr) {
+      document.getElementById(id).value = (arr || []).join("\n");
+    }
+
+    document.querySelectorAll(".tab").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+        btn.classList.add("active");
+        const tab = btn.dataset.tab;
+        document.querySelectorAll(".panel").forEach(p => p.classList.add("hidden"));
+        document.getElementById("panel-" + tab).classList.remove("hidden");
+        if (tab === "dashboard") loadStats();
+        if (tab === "ingredients") loadIngredients(1);
+        if (tab === "unknown") loadUnknown();
+        if (tab === "ocr") loadOcrList();
+      });
+    });
+
+    async function loadStats() {
+      try {
+        const { data } = await api("/api/admin/stats");
+        document.getElementById("stats").innerHTML = `
+          <div class="stat"><div class="label">成分总数</div><div class="value">${data.total_ingredients}</div></div>
+          <div class="stat"><div class="label">别名</div><div class="value">${data.total_aliases}</div></div>
+          <div class="stat"><div class="label">OCR 纠错</div><div class="value">${data.total_ocr_corrections}</div></div>
+          <div class="stat"><div class="label">扫描记录</div><div class="value">${data.total_scans}</div></div>
+          <div class="stat"><div class="label">基础原料</div><div class="value">${data.by_type.base || 0}</div></div>
+          <div class="stat"><div class="label">添加剂</div><div class="value">${data.by_type.additive || 0}</div></div>
+        `;
+        document.getElementById("topUnknown").innerHTML = (data.top_unknown || []).length
+          ? `<table><thead><tr><th>文本</th><th>次数</th></tr></thead><tbody>${
+              data.top_unknown.map(u => `<tr><td>${u.text}</td><td>${u.hit_count}</td></tr>`).join("")
+            }</tbody></table>`
+          : "<p style='color:#6b7280'>暂无数据</p>";
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    async function loadIngredients(p = page) {
+      page = p;
+      const q = document.getElementById("searchQ").value.trim();
+      const ingredient_type = document.getElementById("filterType").value;
+      const params = new URLSearchParams({ page, page_size: 20 });
+      if (q) params.set("q", q);
+      if (ingredient_type) params.set("ingredient_type", ingredient_type);
+      try {
+        const { data } = await api(`/api/admin/ingredients?${params}`);
+        totalPages = data.pages || 1;
+        document.getElementById("pageInfo").textContent = `第 ${data.page} / ${totalPages} 页，共 ${data.total} 条`;
+        document.getElementById("ingredientRows").innerHTML = data.items.map(item => `
+          <tr>
+            <td><strong>${item.name}</strong></td>
+            <td><span class="badge">${item.ingredient_type}</span></td>
+            <td>${item.category}</td>
+            <td>${item.safety_level}</td>
+            <td>${(item.description || "").slice(0, 40)}</td>
+            <td class="actions">
+              <button class="btn" onclick="editIngredient('${encodeURIComponent(item.name)}')">编辑</button>
+              <button class="btn danger" onclick="deleteIngredient('${encodeURIComponent(item.name)}')">删除</button>
+            </td>
+          </tr>`).join("");
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    function prevPage() { if (page > 1) loadIngredients(page - 1); }
+    function nextPage() { if (page < totalPages) loadIngredients(page + 1); }
+
+    async function editIngredient(encodedName) {
+      const name = decodeURIComponent(encodedName);
+      try {
+        const { data } = await api(`/api/admin/ingredients/${encodeURIComponent(name)}`);
+        document.getElementById("editOriginalName").value = data.name;
+        document.getElementById("editorTitle").textContent = "编辑成分";
+        document.getElementById("fName").value = data.name;
+        document.getElementById("fType").value = data.ingredient_type;
+        document.getElementById("fCategory").value = data.category;
+        document.getElementById("fSafety").value = data.safety_level;
+        document.getElementById("fENumber").value = data.e_number || "";
+        document.getElementById("fLimits").value = data.safe_limits || "";
+        document.getElementById("fDesc").value = data.description || "";
+        setLines("fAliases", data.aliases);
+        setLines("fOcr", data.ocr_corrections);
+        setLines("fRisks", data.potential_risks);
+        setLines("fTags", data.tags);
+        setLines("fProducts", data.common_products);
+        switchTab("editor");
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    function newIngredient() {
+      document.getElementById("editOriginalName").value = "";
+      document.getElementById("editorTitle").textContent = "新增成分";
+      ["fName","fCategory","fENumber","fLimits","fDesc","fAliases","fOcr","fRisks","fTags","fProducts"].forEach(id => {
+        document.getElementById(id).value = "";
+      });
+      document.getElementById("fType").value = "additive";
+      document.getElementById("fSafety").value = "safe";
+      switchTab("editor");
+    }
+
+    function switchTab(name) {
+      document.querySelectorAll(".tab").forEach(t => {
+        t.classList.toggle("active", t.dataset.tab === name);
+      });
+      document.querySelectorAll(".panel").forEach(p => p.classList.add("hidden"));
+      document.getElementById("panel-" + name).classList.remove("hidden");
+    }
+
+    function buildPayload() {
+      return {
+        name: document.getElementById("fName").value.trim(),
+        ingredient_type: document.getElementById("fType").value,
+        category: document.getElementById("fCategory").value.trim() || "其他",
+        safety_level: document.getElementById("fSafety").value,
+        description: document.getElementById("fDesc").value.trim() || document.getElementById("fName").value.trim(),
+        e_number: document.getElementById("fENumber").value.trim() || null,
+        safe_limits: document.getElementById("fLimits").value.trim() || null,
+        aliases: lines(document.getElementById("fAliases").value),
+        ocr_corrections: lines(document.getElementById("fOcr").value),
+        potential_risks: lines(document.getElementById("fRisks").value),
+        tags: lines(document.getElementById("fTags").value),
+        common_products: lines(document.getElementById("fProducts").value),
+      };
+    }
+
+    async function saveIngredient() {
+      const payload = buildPayload();
+      if (!payload.name) return showMsg("请填写名称", "err");
+      const original = document.getElementById("editOriginalName").value;
+      try {
+        if (original) {
+          await api(`/api/admin/ingredients/${encodeURIComponent(original)}`, {
+            method: "PUT",
+            body: JSON.stringify(payload),
+          });
+        } else {
+          await api("/api/admin/ingredients", {
+            method: "POST",
+            body: JSON.stringify(payload),
+          });
+        }
+        showMsg("保存成功", "ok");
+        loadIngredients(page);
+        switchTab("ingredients");
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    async function deleteIngredient(encodedName) {
+      const name = decodeURIComponent(encodedName);
+      if (!confirm(`确定删除「${name}」？`)) return;
+      try {
+        await api(`/api/admin/ingredients/${encodeURIComponent(name)}`, { method: "DELETE" });
+        showMsg("已删除", "ok");
+        loadIngredients(page);
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    async function loadUnknown() {
+      try {
+        const { data } = await api("/api/admin/unknown-candidates?min_hits=1&limit=100");
+        document.getElementById("unknownRows").innerHTML = (data.items || []).map(u => `
+          <tr>
+            <td>${u.text}</td>
+            <td>${u.hit_count}</td>
+            <td><button class="btn" onclick="prefillNew('${u.text.replace(/'/g, "\\'")}')">新建成分</button></td>
+          </tr>`).join("") || `<tr><td colspan="3">暂无候选</td></tr>`;
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    function prefillNew(text) {
+      newIngredient();
+      document.getElementById("fName").value = text;
+      document.getElementById("fDesc").value = `常见配料：${text}`;
+    }
+
+    async function loadOcrList() {
+      try {
+        const { data } = await api("/api/admin/ocr-corrections?limit=100");
+        document.getElementById("ocrRows").innerHTML = (data.items || []).map(o => `
+          <tr><td>${o.ocr_text}</td><td>${o.canonical_name}</td><td>${o.hit_count}</td><td>${o.source}</td></tr>
+        `).join("") || `<tr><td colspan="4">暂无数据</td></tr>`;
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    async function submitOcr() {
+      const fd = new FormData();
+      fd.append("ocr_text", document.getElementById("ocrText").value.trim());
+      fd.append("canonical_name", document.getElementById("ocrCanonical").value.trim());
+      try {
+        await fetch("/api/ocr-corrections", {
+          method: "POST",
+          headers: { "X-Admin-Token": token() },
+          body: fd,
+        }).then(async res => {
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.detail || "保存失败");
+        });
+        showMsg("OCR 纠错已保存", "ok");
+        loadOcrList();
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    async function reloadDatabase() {
+      if (!confirm("确定从 YAML/CSV 重新导入？将覆盖同名成分。")) return;
+      try {
+        const res = await fetch("/api/admin/reload-database", {
+          method: "POST",
+          headers: { "X-Admin-Token": token() },
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || "导入失败");
+        showMsg(`导入完成，共 ${data.data.database_size} 条`, "ok");
+        loadStats();
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    async function exportYaml() {
+      try {
+        const { data } = await api("/api/admin/export-yaml");
+        const blob = new Blob([JSON.stringify(data.files, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = "ingredients-export.json";
+        a.click();
+        URL.revokeObjectURL(url);
+        showMsg(`已导出 ${data.total} 条成分`, "ok");
+      } catch (e) { showMsg(e.message, "err"); }
+    }
+
+    loadStats();
+  </script>
+</body>
+</html>
