@@ -75,6 +75,8 @@ Response (abridged):
 }
 ```
 
+For a **real production response on a noisy photographed label** — 46 ingredient candidates, 33 matched, 13 unknowns surfaced, 5 fuzzy suggestions, confidence 0.56 — see [`examples/API_EXAMPLE.md`](examples/API_EXAMPLE.md) and the [full JSON](examples/response-full.json). That example is the more interesting one: it shows how the service behaves when OCR is dirty and the knowledge base does not know every token.
+
 ## Run locally
 
 ```bash
